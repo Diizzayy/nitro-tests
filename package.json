@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nitro build",
+    "dev": "nitro dev",
+    "prepare": "nitro prepare",
+    "preview": "node .output/server/index.mjs",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "nitropack": "latest",
+    "vitest": "^3.0.8"
+  },
+  "packageManager": "pnpm@10.5.0"
+}
